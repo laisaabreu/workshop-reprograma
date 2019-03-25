@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #ffb9ff;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.capa {
+  background-image: url(../img/Lais\ Abreu.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  text-align: center;
+  padding-top: 23rem;
+  color: white;
+  background-position: center;
+}
+
+.h1-capa{
+  color: purple;
+  border-radius: 2rem;
+  background-color: white;
+  padding: 0px 5px;
+  width: 70vh;
+  margin-left: 34%;
+}
+
+.capa a{
+  font-size: 20px;
+}
+
+.veja-mais {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: white;
+  color: purple;
+  border-radius: 5rem;
+  padding: 10px 20px;
+}
+
+.infos {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 4rem;
+}
+
+.infos h2 {
+  font-size: 35px;
+  color: #420b42;
+  margin: 0;
+  text-align: center;
+}
+
+.inicio {
+  font-size: 25px;
+}
+
+.resumo {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.cv {
+  text-decoration: none;
+  color: purple;
+  background-color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 1px solid purple;
+  border-radius: 3rem;
+  border-block-start-width: 5px;
+  letter-spacing: 1px;
+  border-spacing: 10px;
+}
+
+.texto, .lista {
+  width: 40%;
+  display: inline-block;
+  margin-left: 100px;
+  text-align: justify;
+}
+
+.texto {
+  margin-top: 20px;
+}
+
+.lista {
+  vertical-align: 90px;
+}
+
+.lista h4{
+  font-size: 25px;
+  color: #2e062e;
+  margin-bottom: 1px;
+}
+
+ul {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.redes-sociais {
+  width: 60%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.redes-sociais img {
+  width: 100px;
+  height: 100px;
+}
+
+.redes-sociais h4 {
+  margin: 38px;
+}
+
+.quadrado-roxo {
+  background-color: purple;
+  text-align: center;
+  color: white;
+  padding: 5px 7px;
+  line-height: 2px;
+  border-radius: 1rem;
+  width: 180px;
+}
+
+.rodape {
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+}
